@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Script_name     : is_segfault.sh
+# Author          : Intro_SW
+# Description     : Wrapper to call catch_segfault tool with english output
+# Version         : v1.0
+
+LC_ALL=C catch_segfault $*
